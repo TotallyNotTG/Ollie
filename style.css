@@ -310,13 +310,13 @@ body {
     height: 150px;
     margin-left: 45px;
     border-radius: 10px;
-}
+}e
 .errorsection {
     display: none;
-}
+}e
 .main-content{
     margin-left: 190px;
-}
+}e
 .textbox {
     margin-left: 650px;
     margin-top: -15px;
@@ -325,24 +325,24 @@ body {
     border-radius: 5px;
     background-color: #d3d3d3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+}e
 @media (max-width: 700px) {
     .textbox {
         margin-top: -20px;
         margin-left: 400px;
         width: 160px;
-    }
+    }e
 }
 @media (max-width: 1200px) {
     .textbox {
         margin-left: 500px;
-    }
+    }e
 }
 @media (max-width: 900px) {
     .textbox {
         margin-left: 400px;
         width: 160px;
-    }
+    }e
 }
 :root {
     --primary-color: #ffffff;
