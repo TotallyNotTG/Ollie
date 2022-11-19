@@ -48,7 +48,7 @@
   setTimeout(() => {
      preloader()
   }, 1000);
-     evar loader = document.getElementById("preloader");
+     var loader = document.getElementById("preloader");
   window.addEventListener("load", function(){
       loader.style.display = "none"
   })
@@ -82,7 +82,7 @@
          fetchData()
       }, 300)
 
-      efunction fetchData() {
+      function fetchData() {
          const button = document.querySelector('.button')
          const gamename = document.querySelector('.gamename')
 
@@ -93,7 +93,7 @@
       }
   </script>
   <script> 
-      evar change = document.getElementById("change");
+      var change = document.getElementById("change");
 
       change.onclick = function(){
          document.body.classList.toggle("dark-theme");
