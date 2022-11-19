@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="Olliebloxlogov2.png">
+    <link rel="icon" type="x-icon" href="Olliebloxlogov2.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ollieblox</title>
+</head>
+<body> 
+<!--Why Are you In Inspect?
+          Stealing Website Scripts
+        Will End up in a Copyright strike.-->
+
+ <!--Messages that can pop up. -->
+ <!-- <button class="maintenance"></button> -->
+  <!---<h3>The service isn't available.</h3> -->
+
+  <div class="errorsection">
+    <div id="erroricon"></div><div id="errorrefresh-button"></div><div id="error-refresh-icon"></div> 
+  </div>
+  <div id="preloader"></div>
+  <div id="eloader"></div>
+  
+   <nav>
+    <a href="file:///C:/Users/dalen/Documents/Game%20status/Ollieblox/OllieBlox.html"><button class="icon"></button></a>
+     <input type="checkbox" id="check">
+     <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+     </label>
+     <label class="logo"></label>
+     <ul>
+        <li><a class="active" href="#">Ollie's YT</li>
+        <li><a href="#">Gavin's YT</li>
+        <li><a href="https://www.youtube.com/channel/UCb-M7LW5yRDC6q3U1FeawEQ">TG's YT</li>               
+     </ul>
+     <p class="avatar"><a href="Pages/avatarpage.html">Avatar!</a></p>
+     <p id="event-tab"><a href="Pages/Event.html">EVENTS!</a></p>
+     <p class="textbox" contenteditable="true">Search</p>
+   </nav>
+   <script>
+      var loader = document.getElementById("loader");
+  window.addEventListener("load", function(){
+      loader.style.display = "none" 
+  }) 
+  setTimeout(() => {
+     preloader()
+  }, 1000);
+     var loader = document.getElementById("preloader");
+  window.addEventListener("load", function(){
+      loader.style.display = "none"
+  })
+  </script>
+  <!-- Main Content Is Here! (Friends, Games, Etc) -->
+  <div class="main-content">
+   <p class="welcome-sign">Home</p>
+   <p class="friends">Friends (6)</p>
+   <button class="button2"></button>
+   <button class="button2"></button>
+   <button class="button2"></button>
+   <button class="button2"></button>
+   <button class="button2"></button>
+   <button class="button2"></button> 
+   <p class="continue">Continue</p>
+ <!---->  <div class="skelload"></div>
+      <a href="file:///C:/Users/dalen/Documents/Game%20status/Ollieblox/Pages/olliegame.html"><button class="image"></button></a>
+      <div class="button loading"></div>
+      <p class="gamename loading"></p>
+   
+   <p class="about"><br>Recommended</p>
+   <p class="about"><br>Mode</p>
+   <button id="change">Change Theme</button>
+   <p class="about">Official</p>
+   <button class="main-logo"></button>
+   <!--<button class="recommended-games"></button> -->
+   <!--<button class=""></button> -->
+ </div>
+   <script>
+      setTimeout(() => {
+         fetchData()
+      }, 300)
+
+      function fetchData() {
+         const button = document.querySelector('.button')
+         const gamename = document.querySelector('.gamename')
+
+         button.innerHTML = "<button src='https://yt3.ggpht.com/UEs6-9QnFeuX4Pd6X0_OUCP4-LJ6Mo6V2pz-o57ewzAVOyEWPCQrVwj5S73tXF9Bpwb8UteQGA=s176-c-k-c0x00ffffff-no-rj/'/>"
+         button.classList.remove('loading')
+         gamename.innerHTML = "Olliehaven (890k Players)"
+         gamename.classList.remove('loading')
+      }
+  </script>
+  <script> 
+      var change = document.getElementById("change");
+
+      change.onclick = function(){
+         document.body.classList.toggle("dark-theme");
+      }
+  </script>
+</body>
+</html>
