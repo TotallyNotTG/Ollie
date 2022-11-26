@@ -362,3 +362,9 @@ body {
     width: 250px;
     height: 60px;
 }
+.news-tab {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -24px;
+    margin-left: 430px;
+}
