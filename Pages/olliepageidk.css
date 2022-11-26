@@ -23,7 +23,7 @@
     border: 0px solid;
 }
 .game-icon{
-    background: rgb(255, 255, 255) url(game-icon.png) no-repeat;
+    background: rgb(255, 255, 255) url(Images/game-icon.png) no-repeat;
     width: 650px;
     height: 400px;
     margin-top: 150px;
